@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NoteHive</title>
     <!-- Enlace al archivo CSS principal que define el estilo de la página -->
-    <link rel="stylesheet" href="../ProyectoDSS/css/estiloindex.css"> 
+    <link rel="stylesheet" href="../css/estiloindex.css"> 
 </head>
 <body>
     <!-- Barra de navegación principal del sitio -->
@@ -13,8 +13,8 @@
         <div class="contenedor cf">
             <div class="marca">
                 <!-- Logo e identidad de la aplicación, enlaza al inicio (sección splash) -->
-                <a href="../ProyectoDss/index.php">
-                    <img src="../ProyectoDSS/img/logo.png" class="logo">
+                <a href="#splash">
+                    <img src="../img/logo.png" class="logo">
                     NoteHive
                 </a>
             </div>
@@ -23,8 +23,7 @@
                 <!-- Enlaces de navegación a las diferentes secciones del sitio -->
                 <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
                 <li><a href="#ventajas">Ventajas</a></li>
-                <li><a href="../ProyectoDSS/php/sesion.php">Notas</a></li>
-                <li><a href="../ProyectoDSS/php/sesion.php" class="btn-login">Iniciar Sesión</a></li>
+                <li><a href="../php/notas.php">Notas</a></li>
             </ul>
         </div>
     </nav>
@@ -37,7 +36,7 @@
             <span class="continuar">
                 <!-- Icono de flecha para indicar al usuario que puede continuar hacia la siguiente sección -->
                 <a href="#sobre-nosotros">
-                    <img src="../ProyectoDSS/img/flecha.png" alt="Icono de continuar">
+                    <img src="../img/flecha.png" alt="Icono de continuar">
                 </a>
             </span>
         </div>
@@ -80,6 +79,6 @@
     </footer>
 
     <!-- Enlace al archivo JavaScript principal-->
-    <script src="../ProyectoDss/js/indexjs.js"></script>
+    <script src="../js/indexjs.js"></script>
 </body>
 </html>

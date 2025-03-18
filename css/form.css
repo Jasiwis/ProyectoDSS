@@ -1,0 +1,113 @@
+* {  
+    box-sizing: border-box;  
+    margin: 0;  
+    padding: 0;  
+    font-family: Arial, sans-serif;  
+}  
+
+body {  
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+    height: 100vh;  
+}  
+
+.container {  
+    display: flex;  
+    border-radius: 15px;  
+    overflow: hidden;  
+    width: 800px; /* Aumento de ancho */  
+}  
+
+.left-side {  
+    background-color: #592D47; /* Color morado */  
+    color: white;  
+    padding: 20px;  
+    flex: 1;  
+    display: flex;  
+    flex-direction: column;  
+    justify-content: center;  
+    align-items: center;  
+}  
+
+.right-side {  
+    background-color: #FFE1C7; /* Color naranja */  
+    padding: 20px;  
+    flex: 1;  
+    display: flex;  
+    flex-direction: column;  
+}  
+
+h1 {  
+    margin-bottom: 10px;  
+}  
+
+h2 {  
+    margin-bottom: 20px; 
+    text-align: center; 
+    color: #592D47; /* Color del texto del formulario */  
+}  
+
+p {  
+    text-align: center;  
+}  
+
+.logo {  
+    margin: 20px 0; /* Espacio para el logo */  
+    width: 350px; /* Ajustar tamaño del logo según sea necesario */  
+}
+
+
+.login-link {  
+    color: white;  
+    text-decoration: none;  
+    padding: 10px 20px;  
+    border: 2px solid white;  
+    border-radius: 30px; /* Ovalado */  
+    transition: background-color 0.3s ease;  
+}  
+
+.login-link:hover {  
+    background-color: rgba(255, 255, 255, 0.2); /* Efecto hover */  
+}  
+
+.input-container {  
+    position: relative;  
+    margin-bottom: 15px;  
+}  
+
+.icon {  
+    position: absolute;  
+    left: 10px;  
+    top: 50%;  
+    transform: translateY(-50%);  
+}  
+
+input {  
+    width: 100%;  
+    padding: 10px 10px 10px 45px; /* Left padding to accommodate icon */  
+    border: 1px solid #ccc;  
+    border-radius: 5px;  
+    transition: border-color 0.3s ease;  
+}  
+
+input:focus {  
+    border-color: #592D47; /* Color del borde al hacer foco */  
+    outline: none;  
+}  
+
+.register-btn {  
+    background-color: #592D47; /* Color del botón */  
+    color: white;  
+    padding: 12px; /* Aumento de padding */  
+    border: none;  
+    border-radius: 25px;  
+    cursor: pointer;  
+    transition: background-color 0.3s ease, transform 0.2s ease;  
+    width: 100%; /* Para que se ajuste mejor al cuadro */  
+}  
+
+.register-btn:hover {  
+    background-color: #7A4C66; /* Color al pasar el mouse */  
+    transform: scale(1.05); /* Animación de crecimiento */  
+}  

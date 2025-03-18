@@ -1,0 +1,47 @@
+body {
+    background-color: #f8f9fa;
+}
+
+#navbar {
+    background-color: #ffffff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #592D47;
+}
+
+.nav-link {
+    color: #592D47;
+    margin-right: 15px;
+}
+
+/* Estilo para el botón "Inicio" */
+.btn-inicio {
+    background-color: #592D47;
+    color: white;
+    border-radius: 20px;
+    padding: 8px 15px;
+    transition: background-color 0.3s, transform 0.2s;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-inicio:hover {
+    background-color: #704957;
+    transform: scale(1.05);
+}
+
+.profile-icon {
+    color: #000;
+}
+
+#profile-card {
+    background-color: #FFE1C7;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
