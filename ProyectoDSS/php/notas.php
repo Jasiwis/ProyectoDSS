@@ -116,6 +116,7 @@ $conn->close();
     <input type="text" id="titulo" placeholder="Título de la nota"><br><br>
     <textarea id="contenido" placeholder="Contenido de la nota"></textarea><br><br>
     <select id="categoria" name="categoria">
+            <option value="" disabled selected>Categorias</option>
         <?php foreach ($categorias as $categoria): ?>
             <option value="<?= $categoria['id'] ?>"><?= htmlspecialchars($categoria['nombre']) ?></option>
         <?php endforeach; ?>
