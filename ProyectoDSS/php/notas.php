@@ -89,12 +89,12 @@ $conn->close();
             <span>🔍</span>  
         </div>  
     </div>  
-    <button class="btn" style="background-color: #592D47; color: white;" id="btnCrearNota">+ Crear nueva nota</button>  
+    <button class="btn">+ Crear nueva nota</button>  
     <div class="notes-grid" id="notesGrid">
     <?php if (!empty($notas)): ?>
         <?php foreach ($notas as $nota): ?>
             <div class="note-card">
-            <span style="background-color: #FFE1C7; padding: 6px; border-radius: 5px"><?= htmlspecialchars($nota['categoria']) ?></span><br><br>
+            <span><?= htmlspecialchars($nota['categoria']) ?></span><br><br>
                 <h2><?= htmlspecialchars($nota['titulo']) ?></h2>
                 <p><?= nl2br(htmlspecialchars($nota['contenido'])) ?></p>
                 <small><?= $nota['fecha_creacion'] ?></small><br><br>
@@ -109,9 +109,9 @@ $conn->close();
 </div>  
 
 
-<div id="overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 1000;"></div>
+<div id="overlay"></div>
 
-<div id="editModal" style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: white; padding: 20px; border: 1px solid #ccc; z-index: 1001;">
+<div id="editModal">
     <h2 id="modalTitle">Crear Nueva Nota</h2>
     <input type="text" id="titulo" placeholder="Título de la nota"><br><br>
     <textarea id="contenido" placeholder="Contenido de la nota"></textarea><br><br>
@@ -120,7 +120,7 @@ $conn->close();
             <option value="<?= $categoria['id'] ?>"><?= htmlspecialchars($categoria['nombre']) ?></option>
         <?php endforeach; ?>
     </select><br><br>
-    <button class="btn btn-primary" id="btnModalGuardar">Guardar</button>
+    <button class="btn" id="btnModalGuardar">Guardar</button>
     <button class="btn btn-secondary" id="btnModalCancelar">Cancelar</button>
     
 <script>
