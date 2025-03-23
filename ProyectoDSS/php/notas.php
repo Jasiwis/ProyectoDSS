@@ -7,7 +7,7 @@ if (!isset($_SESSION['usuario_id'])) {
     die(json_encode(["error" => "Acceso denegado. Inicia sesión primero."]));
 }
 
-$usuario_id = $_SESSION['usuario_id']; // ID del usuario autenticado
+$usuario_id = $_SESSION['usuario_id']; 
 
 // Obtenr todas las notas de la base de datos
 $sql = "SELECT notas.id, notas.titulo, notas.contenido, categorias.nombre AS categoria, notas.fecha_creacion 
