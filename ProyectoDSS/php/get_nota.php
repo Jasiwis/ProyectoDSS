@@ -6,7 +6,7 @@ if (!isset($_SESSION['usuario_id'])) {
     die(json_encode(["error" => "Acceso denegado. Inicia sesión primero."]));
 }
 
-$usuario_id = $_SESSION['usuario_id']; // Obtener ID del usuario autenticado
+$usuario_id = $_SESSION['usuario_id']; 
 
 if ($_SERVER["REQUEST_METHOD"] == "GET" && isset($_GET['id'])) {
     $id = intval($_GET['id']);
