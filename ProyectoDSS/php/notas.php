@@ -89,7 +89,7 @@ $conn->close();
             <span>🔍</span>  
         </div>  
     </div>  
-    <button class="btn">+ Crear nueva nota</button>  
+    <button class="btn" id="btnCrearNota">+ Crear nueva nota</button>  
     <div class="notes-grid" id="notesGrid">
     <?php if (!empty($notas)): ?>
         <?php foreach ($notas as $nota): ?>
