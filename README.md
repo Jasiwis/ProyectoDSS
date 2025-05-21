@@ -22,9 +22,9 @@ posteriores cuando sea correspondiente.
 | Heysel Guadalupe Argueta Hernández     | AH230907  | G03L  |
 | José Manuel Reyes Echeverría           | RE242138  | G07L  |
 
-##Sistema en funcionamiento
+## Sistema en funcionamiento
 
-##Instrucciones claras para instalar y ejecutar el proyecto
+## Instrucciones claras para instalar y ejecutar el proyecto
 Requisitos previos
 - Tener instalado **XAMPP** (versión compatible con PHP).
 - Tener un navegador moderno (Chrome, Firefox, etc.).
