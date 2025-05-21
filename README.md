@@ -23,6 +23,14 @@ posteriores cuando sea correspondiente.
 | José Manuel Reyes Echeverría           | RE242138  | G07L  |
 
 ## Sistema en funcionamiento
+![Captura de pantalla 2025-05-21 001920](https://github.com/user-attachments/assets/62d6d881-19e2-47a7-ac3f-9744e897fc2a)
+![Captura 2 de pantalla 2025-05-21 002044](https://github.com/user-attachments/assets/61e07c85-d841-4fef-b000-e56861187a3a)
+![Captura 3 de pantalla 2025-05-21 002119](https://github.com/user-attachments/assets/57bfc65e-fbcb-4f1b-8670-23d1913f929b)
+![Captura 4 de pantalla 2025-05-21 002137](https://github.com/user-attachments/assets/ca09b338-d8cc-4608-a99f-347bc0b8914f)
+![Captura 5 de pantalla 2025-05-21 002240](https://github.com/user-attachments/assets/6ad18ff4-f698-458b-a1e7-4cb572dcba89)
+![Captura 6 de pantalla 2025-05-21 002304](https://github.com/user-attachments/assets/0f4f7daa-20cb-4fbb-9d0b-f449737bd438)
+![Captura de 7 pantalla 2025-05-21 002349](https://github.com/user-attachments/assets/234bfdf9-68b8-4f7c-8e2b-0b123b17b586)
+![Captura 8 de pantalla 2025-05-21 002412](https://github.com/user-attachments/assets/fdf5704a-09b3-4c98-888a-0c4a346cfacf)
 
 ## Instrucciones claras para instalar y ejecutar el proyecto
 Requisitos previos
