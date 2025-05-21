@@ -21,3 +21,29 @@ posteriores cuando sea correspondiente.
 | Francisco José Herrera Martínez        | HM221408  | G04L  |
 | Heysel Guadalupe Argueta Hernández     | AH230907  | G03L  |
 | José Manuel Reyes Echeverría           | RE242138  | G07L  |
+
+##Sistema en funcionamiento
+
+##Instrucciones claras para instalar y ejecutar el proyecto
+Requisitos previos
+- Tener instalado **XAMPP** (versión compatible con PHP).
+- Tener un navegador moderno (Chrome, Firefox, etc.).
+- Tener un editor de texto (recomendado: **Visual Studio Code**).
+
+Clonar o copiar el proyecto
+- Descargar o clonar la carpeta del proyecto completo en el directorio `htdocs` de XAMPP.  
+  Ejemplo: `C:\xampp\htdocs\ProyectoDSS`.
+
+Importar la base de datos
+- Abrir **phpMyAdmin** desde el panel de control de XAMPP.
+- Crear una base de datos llamada `notehive`.
+- Importar el archivo `notehive.sql` que se encuentra en la carpeta del proyecto.
+
+Iniciar el servidor local
+- Abrir el **Panel de Control de XAMPP**.
+- Iniciar los módulos **Apache** y **MySQL**.
+
+Abrir la terminal
+- Ejecutar php artisan serve
+- Copiar y pegar la URL proporcionada en el navegador 
+
