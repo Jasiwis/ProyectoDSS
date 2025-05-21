@@ -17,7 +17,7 @@ class Nota extends Model
         'titulo',
         'contenido',
         'usuario_id',
-        'categoria_id'
+        'categoria_id',
     ];
 
     // Relación con el usuario
@@ -31,4 +31,11 @@ class Nota extends Model
     {
         return $this->belongsTo(Categoria::class);
     }
+
+    public function recordatorio()
+    {
+        return $this->hasOne(Recordatorio::class);
+    }
+
+    
 }

@@ -4,8 +4,7 @@
     <meta charset="UTF-8">  
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <meta name="csrf-token" content="{{ csrf_token() }}"> 
-    <link rel="stylesheet" href="{{ asset('css/styles.css') }}">  
-    <script src="{{ asset('js/notasJs.js') }}" defer></script>  
+    <link rel="stylesheet" href="{{ asset('css/styles.css') }}"> 
     <title>App Notas</title>  
 </head>  
 <body>  
@@ -26,6 +25,12 @@
 
 <div class="sidebar">  
     <div class="logo">📝 Notas</div>   
+
+    <div class="notification-icon" style="margin: 10px 0; display: flex; align-items: center;">
+        <span style="font-size: 24px;">🔔</span>
+        <span id="noti-count" style="background: red; color: white; font-size: 12px; padding: 2px 6px; border-radius: 50%; margin-left: 5px;">0</span>
+    </div>
+
     <div class="tags-section">  
         <h2>Etiquetas</h2>  
         <div class="tag-list">  
@@ -73,8 +78,13 @@
     <h2 id="modalTitle">Crear Nueva Nota</h2>
     <div id="modalErrors" class="alert alert-danger" style="display:none;"></div>
     <input type="text" id="titulo" placeholder="Título de la nota" required><br><br>
-    <textarea id="contenido" placeholder="Contenido de la nota" required></textarea><br><br>
-    <select id="categoria" name="categoria" required>
+
+<textarea id="contenido" placeholder="Contenido de la nota" required></textarea><br><br>
+
+<label for="recordatorio">📅 Recordatorio (opcional):</label><br>
+<input type="datetime-local" id="recordatorio" name="recordatorio"><br><br>
+
+<select id="categoria" name="categoria" required>
         <option value="" disabled selected>Selecciona una categoría</option>
         @foreach($categorias as $categoria)
             <option value="{{ $categoria->id }}">{{ $categoria->nombre }}</option>
